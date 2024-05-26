@@ -3,10 +3,10 @@ layout: about
 title: About
 ---
 
-## About
+## About 
 Highly motivated, results-focused, hands-on IT Engineering Manager with over 23 years of experience delivering large-scale transformation programmes in financial services, retail, and public sectors. Adopts agile and waterfall approaches in test management, solution build and code delivery, underpinned by acting as a guide on test automation tools to accelerate the testing lifecycle. Skilled in defect triage and management to identify, analyse and mitigate risks, problem solve and advocate continuous process improvement. Confidently engaging with third-party suppliers and influential in stakeholder management to inform decision-making by presenting comprehensive test reports and building a deep understanding of expectations. Strong leader of onshore/offshore teams from 50 to 100+ personnel, with control of £5 million value testing budgets.
 
-## Professional Experience
+## Professional Experience 
 - Pfizer – QA Manager	10/2023 – 04/2024
 - Circle Health Group – Test Manager	05/2023 – 10/2023
 - NHS Wales- Test Consultant	01/2023 – 03/2023
