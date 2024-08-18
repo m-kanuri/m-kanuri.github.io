@@ -24,3 +24,7 @@ unique(data$antisocx)
 The antisocx variable is likely numeric or ordinal (e.g., ratings from 1-5 or similar). You can create summary statistics using functions like mean(), median(), sd(), and summary()
 
 <img width="1257" alt="Screenshot 2024-08-18 at 14 47 36" src="https://github.com/user-attachments/assets/a2ce2caf-ab0e-47b5-aba4-ef3c8ef31485">
+
+If the antisocx variable is categorical (e.g., levels of anti-social behavior such as "None", "Low", "Moderate", "High"), it might be beneficial to convert it into a factor
+
+<img width="1217" alt="Screenshot 2024-08-18 at 14 59 14" src="https://github.com/user-attachments/assets/11e2313d-c62d-45dc-bdc9-f6098095aaf9">
