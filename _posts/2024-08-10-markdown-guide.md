@@ -10,4 +10,9 @@ Using the Crime Survey for England and Wales, 2013-2014: Unrestricted Access Tea
 
 The ‘antisocx’ variable captures the level of anti-social behavior experienced by respondents.
 
+# Check the unique values and a summary of the antisocx variable
+summary(data$antisocx)
+unique(data$antisocx)
+
 <img width="611" alt="Screenshot 2024-08-18 at 14 37 18" src="https://github.com/user-attachments/assets/f67f0408-4a1d-4479-bab3-fc3385352c30">
+![Uploading Screenshot 2024-08-18 at 14.42.18.png…]()
