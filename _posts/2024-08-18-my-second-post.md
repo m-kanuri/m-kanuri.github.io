@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Numerical Analysis
+title: Numerical Analysis - Data Activity 2
 subtitle: Unit 2 - Data Activity 2
 categories: Python
 tags: [Data Activity 2]
