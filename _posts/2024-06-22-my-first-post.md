@@ -28,10 +28,10 @@ Our collaborative discussion, where we have collectively explored different type
 
 References:
 
--Imarticus Learning. (n.d.). The importance of linear regression in machine learning. Retrieved from https://blog.imarticus.org/the-importance-of-linear-regression-in-machine-learning/
--Phenotyping of Review-of-Systems Responses to Differentiate Functional Seizures From Epilepsy | Psychiatrist.com. (n.d.). Retrieved from https://www.psychiatrist.com/pcc/neurologic/seizure/phenotyping-review-of-systems-responses-differentiate-functional-seizures-from-epilepsy/
--(2023). A New Low-Cost Internet of Things-Based Monitoring System Design for Stand-Alone Solar Photovoltaic Plant and Power Estimation. Applied Sciences, 13(24), 13072.
--Grus, J. (2016). K-means and hierarchical clustering with Python. O'Reilly Media, Inc.
--Albon, C. (2018). Machine Learning with Python Cookbook. O'Reilly Media, Inc.
--Smith, J., 2020. Understanding Decision Trees: A Practical Guide. Machine Learning Journal, 12(4), pp. 45-67.
--Doe, J. (2019). Support Vector Machines: Theory and Applications. Academic Press.
+'-' Imarticus Learning. (n.d.). The importance of linear regression in machine learning. Retrieved from https://blog.imarticus.org/the-importance-of-linear-regression-in-machine-learning/
+'-' Phenotyping of Review-of-Systems Responses to Differentiate Functional Seizures From Epilepsy | Psychiatrist.com. (n.d.). Retrieved from https://www.psychiatrist.com/pcc/neurologic/seizure/phenotyping-review-of-systems-responses-differentiate-functional-seizures-from-epilepsy/
+'-' (2023). A New Low-Cost Internet of Things-Based Monitoring System Design for Stand-Alone Solar Photovoltaic Plant and Power Estimation. Applied Sciences, 13(24), 13072.
+'-' Grus, J. (2016). K-means and hierarchical clustering with Python. O'Reilly Media, Inc.
+'-' Albon, C. (2018). Machine Learning with Python Cookbook. O'Reilly Media, Inc.
+'-' Smith, J., 2020. Understanding Decision Trees: A Practical Guide. Machine Learning Journal, 12(4), pp. 45-67.
+'-' Doe, J. (2019). Support Vector Machines: Theory and Applications. Academic Press.
