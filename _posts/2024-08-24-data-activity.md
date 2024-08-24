@@ -11,15 +11,15 @@ Using the Crime Survey for England and Wales, 2013-2014: Unrestricted Access Tea
 
 Create a subset of individuals who belong to the ‘75+’ age group and who were a ‘victim of crime’ that occurred in the previous 12 months. Save this dataset under a new name 'crime_75victim'.
 
-The data is downloaded from [Link text](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=8011#!/access-data)
+The data is downloaded from [ Crime Survey for England and Wales, 2013-2014](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=8011#!/access-data)
 
 NumPy is the numerical library in Python. Used Google Colab to work on this activity.
 
-## Loading Data: We loaded the SPSS file csew1314teachingopen.sav into a pandas DataFrame.
+### Loading Data: We loaded the SPSS file csew1314teachingopen.sav into a pandas DataFrame.
 
-## Filtering Data: We filtered the dataset to include only individuals aged 75+ who were victims of crime in the last 12 months.
+### Filtering Data: We filtered the dataset to include only individuals aged 75+ who were victims of crime in the last 12 months.
 
-## Saving Data: We saved the filtered data as a new SPSS file named crime_75victim.sav.
+### Saving Data: We saved the filtered data as a new SPSS file named crime_75victim.sav.
 
 
 ![Screenshot 2024-08-24 at 03 12 13](https://github.com/user-attachments/assets/699bbcd2-004a-46c3-98cc-fbc6886f1cbe)
