@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding Artificial Intelligence
+title: Understanding Artificial Intelligence - Supervised & Unsupervised learning algorithms
 subtitle: Collaborative Learning Discussion 2
 categories: Website
 tags: [Github, Website]
