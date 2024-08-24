@@ -3,7 +3,7 @@ layout: post
 title: Understanding Artificial Intelligence - AI is powering the future of financial services
 subtitle: Collaborative Learning Discussion 1 
 categories: Website
-tags: [Github, Website]
+tags: [Colloborative Learning Discussion, AI in financial Services]
 ---
  
 ## Summary Post: AI is powering the future of financial services
