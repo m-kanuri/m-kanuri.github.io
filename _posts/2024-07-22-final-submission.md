@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding Artificial Intelligence - Final Submission
-subtitle: Collaborative Learning Discussion 2
+subtitle: Final Submission
 categories: Website
 tags: [Github, Website]
 ---
