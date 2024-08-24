@@ -17,7 +17,9 @@ NumPy is the numerical library in Python. Used Google Colab to work on this acti
 
 1. Loading Data: We loaded the SPSS file csew1314teachingopen.sav into a pandas DataFrame.
 2. Filtering Data: We filtered the dataset to include only individuals aged 75+ who were victims of crime in the last 12 months.
-3. Saving Data: We saved the filtered data as a new SPSS file named crime_75victim.sav.
+3. Saving Data: We saved the filtered data as a new SPSS file named [crime_75victim.sav](https://github.com/m-kanuri/m-kanuri.github.io/blob/ad43e2af50b0b4df599c14244b12c7c4291f81fa/crime_75victim.sav)
+
+Screenshot from Google Colab
 
 ![Screenshot 2024-08-24 at 03 12 13](https://github.com/user-attachments/assets/699bbcd2-004a-46c3-98cc-fbc6886f1cbe)
 
