@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding Artificial Intelligence
+title: Understanding Artificial Intelligence - AI is powering the future of financial services
 subtitle: Collaborative Learning Discussion 1 
 categories: Website
 tags: [Github, Website]
