@@ -3,7 +3,7 @@ layout: post
 title: Understanding Artificial Intelligence - Final Submission
 subtitle: Final Submission
 categories: Website
-tags: [Github, Website]
+tags: [AI Solution Implementation]
 ---
  
 ## Final Submission: Artificial Intelligence (AI) Solution Implementation
