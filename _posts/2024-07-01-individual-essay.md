@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding Artificial Intelligence - Supervised & Unsupervised learning algorithms
-subtitle: Collaborative Learning Discussion 2
+subtitle: Individual Essay
 categories: Website
 tags: [Github, Website]
 ---
