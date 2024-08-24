@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Numerical Analysis - Data Activity 2
-subtitle: Unit 3 - Data Activity 2
+title: Numerical Analysis - Data Activity 3
+subtitle: Unit 3 - Data Activity 3
 categories: Python
-tags: [Data Activity 2]
+tags: [Data Activity 3]
 ---
 Data Activity 3
 Using the Crime Survey for England and Wales, 2013-2014: Unrestricted Access Teaching Dataset (see Unit 1), perform the following activity:
