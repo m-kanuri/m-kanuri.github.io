@@ -3,7 +3,7 @@ layout: post
 title: Understanding Artificial Intelligence - Supervised & Unsupervised learning algorithms
 subtitle: Collaborative Learning Discussion 2
 categories: Website
-tags: [Github, Website]
+tags: [Collaborative Learning Discussion]
 ---
  
 ## Summary Post : Supervised & Unsupervised learning algorithms
@@ -26,7 +26,7 @@ The Unit 6 and 7 modules have provided a structured learning context, introducin
 
 Our collaborative discussion, where we have collectively explored different types of supervised models like Linear Regression, Logistic Regression, Support Vector Machines (SVM), Decision Trees, Random Forest, K-Nearest Neighbors (KNN), Naive Bayes, Neural Networks and Gradient Boosting Machines (GBM), as well as unsupervised models like K-Means Clustering, Hierarchical Clustering, DBSCAN (Density-Based Spatial Clustering of Applications with Noise), Principal Component Analysis (PCA), t-Distributed Stochastic Neighbor Embedding (t-SNE), Autoencoders, Apriori Algorithm and Gaussian Mixture Models (GMM), has been instrumental in our learning journey.
 
-References:
+### References:
 
 '-' Imarticus Learning. (n.d.). The importance of linear regression in machine learning. Retrieved from https://blog.imarticus.org/the-importance-of-linear-regression-in-machine-learning/
 '-' Phenotyping of Review-of-Systems Responses to Differentiate Functional Seizures From Epilepsy | Psychiatrist.com. (n.d.). Retrieved from https://www.psychiatrist.com/pcc/neurologic/seizure/phenotyping-review-of-systems-responses-differentiate-functional-seizures-from-epilepsy/
