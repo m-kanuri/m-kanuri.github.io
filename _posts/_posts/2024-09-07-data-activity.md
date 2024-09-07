@@ -19,18 +19,31 @@ If you’re using ‘ggplot2’: Add “Levels of anti-social behaviour in neigh
 
 Create a bar plot using either the barplot() function or the ggplot() function to assess whether or not the survey respondents experienced crime in the 12 months prior to the survey (use the variable 'bcsvictim'). Give the graph a suitable title and choose a colour for the bars (e.g., orange).
 
+Solution
+
 The data is downloaded from [ Crime Survey for England and Wales, 2013-2014](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=8011#!/access-data)
 
-NumPy is the numerical library in Python. Used Google Colab to work on this activity.
+Loaded the data to R Studio 
+<img width="807" alt="Screenshot 2024-09-07 at 05 51 44" src="https://github.com/user-attachments/assets/36976f91-afe1-4740-971b-a41282a2d80d">
 
-1. Loading Data: We loaded the SPSS file csew1314teachingopen.sav into a pandas DataFrame.
-2. Filtering Data: We filtered the dataset to include only individuals aged 75+ who were victims of crime in the last 12 months.
-3. Saving Data: We saved the filtered data as a new SPSS file named [crime_75victim.sav](https://github.com/m-kanuri/m-kanuri.github.io/blob/ad43e2af50b0b4df599c14244b12c7c4291f81fa/crime_75victim.sav)
+Using the ggplot and the following script was used in R Studio
 
-Screenshot from Google Colab
+# Create the boxplot
+ggplot(crime_data, aes(x = "", y = antisocx)) + 
+  geom_boxplot(fill = "yellow", outlier.colour = "red") +  # Colour the boxplot yellow and outliers as red
+  labs(title = "Levels of anti-social behaviour in neighbourhood 'antisocx'") +
+  theme_minimal()
 
-![Screenshot 2024-08-24 at 03 12 13](https://github.com/user-attachments/assets/699bbcd2-004a-46c3-98cc-fbc6886f1cbe)
+  ![Rplot](https://github.com/user-attachments/assets/52a1b634-0d8b-4ac7-8896-e52919680f92)
 
-  
+# Create a bar plot using ggplot2
+ggplot(crime_data, aes(x = factor(bcsvictim))) + 
+  geom_bar(fill = "orange") +  # Color the bars in orange
+  labs(title = "Crime Victimization in the Last 12 Months", 
+       x = "Victim Status", y = "Frequency") +
+  theme_minimal()
+
+  ![Rplot01](https://github.com/user-attachments/assets/6ecbdf2e-66aa-4d37-bac9-9788c9894f26)
+
 
 
