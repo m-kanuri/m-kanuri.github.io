@@ -28,20 +28,15 @@ Loaded the data to R Studio
 
 Using the ggplot and the following script was used in R Studio
 
-# Create the boxplot
-ggplot(crime_data, aes(x = "", y = antisocx)) + 
-  geom_boxplot(fill = "yellow", outlier.colour = "red") +  # Colour the boxplot yellow and outliers as red
-  labs(title = "Levels of anti-social behaviour in neighbourhood 'antisocx'") +
-  theme_minimal()
+# Create the boxplot using ggplot2
+
+<img width="813" alt="Screenshot 2024-09-07 at 06 02 14" src="https://github.com/user-attachments/assets/ff0bc862-99e5-417e-aa1d-c3c2a50c08c5">
 
   ![Rplot](https://github.com/user-attachments/assets/52a1b634-0d8b-4ac7-8896-e52919680f92)
 
 # Create a bar plot using ggplot2
-ggplot(crime_data, aes(x = factor(bcsvictim))) + 
-  geom_bar(fill = "orange") +  # Color the bars in orange
-  labs(title = "Crime Victimization in the Last 12 Months", 
-       x = "Victim Status", y = "Frequency") +
-  theme_minimal()
+
+<img width="801" alt="Screenshot 2024-09-07 at 06 02 48" src="https://github.com/user-attachments/assets/90ba307f-a216-4d20-ba46-aa177dc1186c">
 
   ![Rplot01](https://github.com/user-attachments/assets/6ecbdf2e-66aa-4d37-bac9-9788c9894f26)
 
