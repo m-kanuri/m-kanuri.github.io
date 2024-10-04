@@ -25,7 +25,8 @@ Loaded the data to R Studio and check the head and tail data
 
 # mean, median and mode of variables sbp, dbp and income.
 
-<img width="731" alt="Screenshot 2024-10-04 at 12 41 30" src="https://github.com/user-attachments/assets/97d06a02-573c-49be-948e-5dc2174a5445">
+<img width="737" alt="Screenshot 2024-10-04 at 13 26 22" src="https://github.com/user-attachments/assets/6feb1d1c-3ab8-4a66-8730-fa26dc911490">
+
 
 # Five-figure summary of income variable and present it using a Boxplot.
 
