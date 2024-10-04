@@ -1,27 +1,23 @@
 ---
 layout: post
-title: Numerical Analysis - Data Activity 4
-subtitle: Unit 5 - Data Activity 4
+title: Numerical Analysis - Data Activity 5
+subtitle: Unit 7 - Data Activity 5
 categories: Rstudio
-tags: [Data Activity 4]
+tags: [Data Activity 5]
 ---
-# Data Activity 4
+# Data Activity 5
 
-Using the Crime Survey for England and Wales, 2013-2014: Unrestricted Access Teaching Dataset (see Unit 1), perform the following activities:
+Using the Health_Data, please perform the following functions in R:
 
-Create a boxplot for the variable 'antisocx'
+Find out mean, median and mode of variables sbp, dbp and income.
 
-Follow the instructions below to create a boxplot for assessing levels of anti-social behaviour that the survey respondents experience in their neighbourhood (use the variable: antisocx).
+Find out the five-figure summary of income variable and present it using a Boxplot.
 
-If you’re using ‘graphics’: Add “Levels of anti-social behaviour in neighbourhood ‘antisocx’” as a title and colour the plot in purple and colour the outliers in blue.
-
-If you’re using ‘ggplot2’: Add “Levels of anti-social behaviour in neighbourhood ‘antisocx’ as a title, colour the plot in yellow and colour the outliers in red.
-
-Create a bar plot using either the barplot() function or the ggplot() function to assess whether or not the survey respondents experienced crime in the 12 months prior to the survey (use the variable 'bcsvictim'). Give the graph a suitable title and choose a colour for the bars (e.g., orange).
+Run a suitable hypothesis test to see if there is any association between systolic blood pressure and the presence and absence of peptic ulcer.
 
 Solution
 
-The data is downloaded from [ Crime Survey for England and Wales, 2013-2014](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=8011#!/access-data)
+The data is downloaded from https://www.my-course.co.uk/pluginfile.php/1201624/mod_page/content/5/Health%20Data.sav
 
 Loaded the data to R Studio 
 <img width="807" alt="Screenshot 2024-09-07 at 05 51 44" src="https://github.com/user-attachments/assets/36976f91-afe1-4740-971b-a41282a2d80d">
