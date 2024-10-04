@@ -20,7 +20,8 @@ Solution
 The data is downloaded from https://www.my-course.co.uk/pluginfile.php/1201624/mod_page/content/5/Health%20Data.sav
 
 Loaded the data to R Studio 
-<img width="807" alt="Screenshot 2024-09-07 at 05 51 44" src="https://github.com/user-attachments/assets/36976f91-afe1-4740-971b-a41282a2d80d">
+
+<img width="700" alt="Screenshot 2024-10-03 at 04 21 34" src="https://github.com/user-attachments/assets/0ed24617-f533-47cf-ae49-8ab8b61d4415">
 
 Using the ggplot and the following script was used in R Studio
 
