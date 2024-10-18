@@ -18,66 +18,46 @@ Solution
 
 The data is downloaded from [https://www.my-course.co.uk/pluginfile.php/1201624/mod_page/content/5/Health%20Data.sav](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=8011#!/access-data)
 
-# mean, median and mode of 'age' variable
-
-> # Load required packages
+# Install and load the necessary packages
 install.packages("haven")
 library(haven)
 
-> # Load the dataset into R
-health_data <- read_sav("/Users/murthykanuri/Downloads/Health_Data.sav")
+install.packages("gmodels")
+library(gmodels)
 
-> # Calculate mean and median of 'age' variable
-mean_age <- mean(health_data$age, na.rm = TRUE)
-median_age <- median(health_data$age, na.rm = TRUE)
+# Load your SPSS file
+health_data <- read_sav("/Users/murthykanuri/Downloads/csew1314teachingopen.sav")
 
-> # Function to calculate mode
-get_mode <- function(v) {
-  uniq_v <- unique(v)
-  uniq_v[which.max(tabulate(match(v, uniq_v)))]
-}
+# Create the crosstab with row percentages
+CrossTable(health_data$bcsvictim, health_data$agegrp7, prop.r = TRUE, digits = 2, format = "SPSS")
+> CrossTable(health_data$bcsvictim, health_data$agegrp7, prop.r = TRUE, digits = 2, format = "SPSS")
 
-mode_age <- get_mode(health_data$age)
+   Cell Contents
+|-------------------------|
+|                   Count |
+| Chi-square contribution |
+|             Row Percent |
+|          Column Percent |
+|           Total Percent |
+|-------------------------|
 
-# Print results
-mean_age
-median_age
-mode_age
+Total Observations in Table:  8843 
 
-> # Print results
-> mean_age
-[1] 26.51429
-> median_age
-[1] 27
-> mode_age
-[1] 26
-
-# median diastolic blood pressure is same among diabetic and non-diabetic participants.
-
-> # Group by occupation and calculate summary statistics
-summary_systolic_bp <- health_data %>%
-  group_by(occupation) %>%
-  summarise(mean_bp = mean(sbp, na.rm = TRUE), 
-            median_bp = median(sbp, na.rm = TRUE))
-
-> # Print results
-summary_systolic_bp
-
-> summary_systolic_bp
-# A tibble: 4 × 3
-  occupation      mean_bp median_bp
-  <dbl+lbl>         <dbl>     <dbl>
-1 1 [GOVT JOB]       129.      126.
-2 2 [PRIVATE JOB]    126.      120 
-3 3 [BUSINESS]       128.      122 
-4 4 [OTHERS]         127.      123
-
-# Perform ANOVA test to check for differences in systolic blood pressure across occupation groups
-anova_result <- aov(sbp~ occupation, data = health_data)
-summary(anova_result)
-> anova_result <- aov(sbp~ occupation, data = health_data)
-> summary(anova_result)
-             Df Sum Sq Mean Sq F value Pr(>F)
-occupation    1    101   101.4   0.251  0.617
-Residuals   208  83984   403.8     
-
+                      | health_data$agegrp7 
+health_data$bcsvictim |        1  |        2  |        3  |        4  |        5  |        6  |        7  | Row Total | 
+----------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+                    0 |      523  |     1049  |     1194  |     1242  |     1226  |     1194  |     1032  |     7460  | 
+                      |     5.21  |     8.28  |     0.42  |     1.02  |     0.38  |     6.46  |    11.86  |           | 
+                      |     7.01% |    14.06% |    16.01% |    16.65% |    16.43% |    16.01% |    13.83% |    84.36% | 
+                      |    76.35% |    77.19% |    82.80% |    81.98% |    85.85% |    90.80% |    93.90% |           | 
+                      |     5.91% |    11.86% |    13.50% |    14.05% |    13.86% |    13.50% |    11.67% |           | 
+----------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+                    1 |      162  |      310  |      248  |      273  |      202  |      121  |       67  |     1383  | 
+                      |    28.10  |    44.69  |     2.24  |     5.49  |     2.04  |    34.85  |    64.00  |           | 
+                      |    11.71% |    22.42% |    17.93% |    19.74% |    14.61% |     8.75% |     4.84% |    15.64% | 
+                      |    23.65% |    22.81% |    17.20% |    18.02% |    14.15% |     9.20% |     6.10% |           | 
+                      |     1.83% |     3.51% |     2.80% |     3.09% |     2.28% |     1.37% |     0.76% |           | 
+----------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+         Column Total |      685  |     1359  |     1442  |     1515  |     1428  |     1315  |     1099  |     8843  | 
+                      |     7.75% |    15.37% |    16.31% |    17.13% |    16.15% |    14.87% |    12.43% |           | 
+----------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
