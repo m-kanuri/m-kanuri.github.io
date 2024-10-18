@@ -55,14 +55,23 @@ mode_age
 
 # median diastolic blood pressure is same among diabetic and non-diabetic participants.
 
-summary(Health_Data$income)
----Console displays---
-> summary(Health_Data$income)
-   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-  52933   68636   86560   85194   99696  117210
+> # Group by occupation and calculate summary statistics
+summary_systolic_bp <- health_data %>%
+  group_by(occupation) %>%
+  summarise(mean_bp = mean(sbp, na.rm = TRUE), 
+            median_bp = median(sbp, na.rm = TRUE))
 
-![Rplot07](https://github.com/user-attachments/assets/e1c997d1-1b69-4c1e-97e0-08906f7e7ff4)
+> # Print results
+summary_systolic_bp
 
+> summary_systolic_bp
+# A tibble: 4 × 3
+  occupation      mean_bp median_bp
+  <dbl+lbl>         <dbl>     <dbl>
+1 1 [GOVT JOB]       129.      126.
+2 2 [PRIVATE JOB]    126.      120 
+3 3 [BUSINESS]       128.      122 
+4 4 [OTHERS]         127.      123 
 
 # Suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer.
 
