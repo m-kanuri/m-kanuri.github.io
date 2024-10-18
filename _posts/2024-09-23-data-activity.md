@@ -19,14 +19,39 @@ Solution
 
 The data is downloaded from https://www.my-course.co.uk/pluginfile.php/1201624/mod_page/content/5/Health%20Data.sav
 
-Loaded the data to R Studio and check the head and tail data
+# mean, median and mode of 'age' variable
 
-<img width="734" alt="Screenshot 2024-10-04 at 12 20 53" src="https://github.com/user-attachments/assets/08c63d33-7820-49cd-96b5-32e321c747f5">
+# Load required packages
+install.packages("haven")
+library(haven)
 
-# mean, median and mode of variables sbp, dbp and income.
+# Load the dataset into R
+health_data <- read_sav("/Users/murthykanuri/Downloads/Health_Data.sav")
 
-<img width="737" alt="Screenshot 2024-10-04 at 13 26 22" src="https://github.com/user-attachments/assets/6feb1d1c-3ab8-4a66-8730-fa26dc911490">
+# Calculate mean and median of 'age' variable
+mean_age <- mean(health_data$age, na.rm = TRUE)
+median_age <- median(health_data$age, na.rm = TRUE)
 
+# Function to calculate mode
+get_mode <- function(v) {
+  uniq_v <- unique(v)
+  uniq_v[which.max(tabulate(match(v, uniq_v)))]
+}
+
+mode_age <- get_mode(health_data$age)
+
+# Print results
+mean_age
+median_age
+mode_age
+
+> # Print results
+> mean_age
+[1] 26.51429
+> median_age
+[1] 27
+> mode_age
+[1] 26
 
 # Five-figure summary of income variable and present it using a Boxplot.
 
