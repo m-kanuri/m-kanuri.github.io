@@ -41,4 +41,14 @@ summary(Health_Data$income)
 
 # Suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer.
 
+<img width="656" alt="Screenshot 2024-10-18 at 21 58 45" src="https://github.com/user-attachments/assets/214d4b62-d15b-46c7-b8e6-12c8a98d4d58">
 
+Summary
+- t-value: 1.2142
+- Degrees of freedom (df): 57.562
+- p-value: 0.2296 > 0.05 there is no statistically significant difference between the systolic blood pressure means of those with and without peptic ulcers
+- 95% Confidence Interval: (-2.8894, 11.7957) suggests that the true difference in means lies somewhere within this range
+- Mean of group 1 (with peptic ulcer): 131.3171
+- Mean of group 2 (without peptic ulcer): 126.8639
+  
+In conclusion, based on this analysis, there is no sufficient evidence to reject the null hypothesis that the systolic blood pressure means of individuals with and without peptic ulcers are equal. Therefore, we conclude that there is no significant association between systolic blood pressure and the presence or absence of peptic ulcers.
