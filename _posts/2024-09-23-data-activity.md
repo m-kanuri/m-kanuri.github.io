@@ -53,7 +53,7 @@ mode_age
 > mode_age
 [1] 26
 
-# Five-figure summary of income variable and present it using a Boxplot.
+# median diastolic blood pressure is same among diabetic and non-diabetic participants.
 
 summary(Health_Data$income)
 ---Console displays---
