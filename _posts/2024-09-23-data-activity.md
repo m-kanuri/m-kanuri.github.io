@@ -73,7 +73,7 @@ summary_systolic_bp
 3 3 [BUSINESS]       128.      122 
 4 4 [OTHERS]         127.      123 
 
-# Suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer.
+# Suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer.**
 
 # Perform ANOVA test to check for differences in systolic blood pressure across occupation groups
 anova_result <- aov(sbp~ occupation, data = health_data)
