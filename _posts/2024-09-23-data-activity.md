@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Numerical Analysis - Data Activity 5
-subtitle: Unit 7 - Data Activity 5
+title: Numerical Analysis - Data Activity 6
+subtitle: Unit 8 - Data Activity 6
 categories: Rstudio
-tags: [Data Activity 5]
+tags: [Data Activity 6]
 ---
-# Data Activity 5
+# Data Activity 6
 
 Using the Health_Data, please perform the following functions in R:
 
-Find out mean, median and mode of variables sbp, dbp and income.
+Find out the mean, median and mode of ‘age’ variable.
 
-Find out the five-figure summary of income variable and present it using a Boxplot.
+Find out whether median diastolic blood pressure is same among diabetic and non-diabetic participants.
 
-Run a suitable hypothesis test to see if there is any association between systolic blood pressure and the presence and absence of peptic ulcer.
+Find out whether systolic BP is different across occupational group.
 
 Solution
 
