@@ -75,5 +75,12 @@ summary_systolic_bp
 
 # Suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer.
 
-
+# Perform ANOVA test to check for differences in systolic blood pressure across occupation groups
+anova_result <- aov(sbp~ occupation, data = health_data)
+summary(anova_result)
+> anova_result <- aov(sbp~ occupation, data = health_data)
+> summary(anova_result)
+             Df Sum Sq Mean Sq F value Pr(>F)
+occupation    1    101   101.4   0.251  0.617
+Residuals   208  83984   403.8     
 
