@@ -21,18 +21,18 @@ The data is downloaded from https://www.my-course.co.uk/pluginfile.php/1201624/m
 
 # mean, median and mode of 'age' variable
 
-# Load required packages
+> # Load required packages
 install.packages("haven")
 library(haven)
 
-# Load the dataset into R
+> # Load the dataset into R
 health_data <- read_sav("/Users/murthykanuri/Downloads/Health_Data.sav")
 
-# Calculate mean and median of 'age' variable
+> # Calculate mean and median of 'age' variable
 mean_age <- mean(health_data$age, na.rm = TRUE)
 median_age <- median(health_data$age, na.rm = TRUE)
 
-# Function to calculate mode
+> # Function to calculate mode
 get_mode <- function(v) {
   uniq_v <- unique(v)
   uniq_v[which.max(tabulate(match(v, uniq_v)))]
