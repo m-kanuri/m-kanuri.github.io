@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Numerical Analysis - Data Activity 7
@@ -6,7 +5,7 @@ subtitle: Unit 9 - Data Activity 7
 categories: Rstudio
 tags: [Data Activity 7]
 ---
-# Data Activity 
+# Data Activity7
 
 Using the Crime Survey for England and Wales, 2013-2014: Unrestricted Access Teaching Dataset, perform the following activities:
 
