@@ -32,14 +32,27 @@ sidebar: archive-list
 
 {%- if site.posts.size > 0 -%}
 
-  {% include functions.html func='log' level='debug' msg='Get datetimes value' %}
+  {% include functions.html func='log' level='debug' msg='Filtering for posts about understanding artificial intelligence' %}
 
-  {% assign filter = '%Y' %}
-  {% include functions.html func='get_datetimes' %}
-  {% assign datetimes = return %}
+  {% assign relevant_posts = "" %}
 
-  {% assign keys = datetimes | reverse %}
-  {% assign field = 'date' %}
-  {% include views/segments.html %}
+  {# Loop through the posts and filter for text containing "understanding artificial intelligence" #}
+  {% for post in site.posts %}
+    {%- if post.content contains "understanding artificial intelligence" -%}
+      {% assign relevant_posts = relevant_posts | append: post | append: "," %}
+    {%- endif -%}
+  {% endfor %}
+
+  {# Split the filtered posts into an array for further processing #}
+  {% assign relevant_posts_array = relevant_posts | split: "," %}
+
+  {# Display or process the filtered posts #}
+  {% for post in relevant_posts_array %}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.content }}</p>
+  {% endfor %}
 
 {%- endif -%}
+
+
+
