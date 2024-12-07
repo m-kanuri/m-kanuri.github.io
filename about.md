@@ -37,4 +37,10 @@ Highly motivated, results-focused, hands-on IT Engineering Manager with over 23 
 - BCS Foundation Certificate in Business Analysis
 - CISI Level 3 Award for Introduction to Investment
 
+## GitHub
+[GitHub](https://github.com/m-kanuri)  
+
+## LinkedIn
+[LinkedIn](https://www.linkedin.com/in/mkanuri/)
+
 
