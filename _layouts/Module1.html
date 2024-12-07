@@ -1,58 +1,16 @@
 ---
 layout: framework
-sidebar: archive-list
+sidebar: tag-list
 ---
-<table>
-    <thead>
-        <tr>
-            <th>Module Name</th>
-            <th>Description</th>
-            <th>Link</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Module 1</td>
-            <td>Understanding Artificial Intelligence</td>
-            <td><a href="https://example.com/module1" target="_blank">View Module</a></td>
-        </tr>
-        <tr>
-            <td>Module 2</td>
-            <td>Numerical Analysis</td>
-            <td><a href="https://example.com/module2" target="_blank">View Module</a></td>
-        </tr>
-        <tr>
-            <td>Module 3</td>
-            <td>Machine Learning</td>
-            <td><a href="https://example.com/module3" target="_blank">View Module</a></td>
-        </tr>
-
-    </tbody>
-</table>
 
 {%- if site.posts.size > 0 -%}
 
-  {%- include functions.html func='log' level='debug' msg='Get value for category: Website' -%}
-  {%- include functions.html func='get_categories' -%}
-  {% assign categories = return %}
+  {%- include functions.html func='log' level='debug' msg='Get tags value' -%}
+  {%- include functions.html func='get_tags' -%}
+  {% assign tags = return %}
 
-  {# Filter categories to include only "Website" #}
-  {% assign filtered_categories = "" %}
-  {% for category in categories %}
-    {%- if category == "Website" -%}
-      {% assign filtered_categories = filtered_categories | append: category | append: "," %}
-    {%- endif -%}
-  {% endfor %}
-
-  {# Split the filtered categories into an array for use #}
-  {% assign keys = filtered_categories | split: "," %}
-
-  {# Set the field for display #}
-  {% assign field = 'categories' %}
+  {% assign keys = tags %}
+  {% assign field = 'tags' %}
   {%- include views/segments.html -%}
 
 {%- endif -%}
-
-
-
-
