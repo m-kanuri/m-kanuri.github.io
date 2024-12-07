@@ -2,7 +2,7 @@
 layout: post
 title: Understanding Artificial Intelligence - Supervised & Unsupervised learning algorithms
 subtitle: Individual Essay
-categories: Website
+categories: Module1
 tags: [Github, Website]
 ---
  
