@@ -38,12 +38,10 @@ Highly motivated, results-focused, hands-on IT Engineering Manager with over 23 
 - CISI Level 3 Award for Introduction to Investment
 
 ## GitHub
-[GitHub](https://github.com/m-kanuri)  
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/m-kanuri)  
 
 ## LinkedIn
-[LinkedIn](https://www.linkedin.com/in/mkanuri/)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mkanuri/)
 
