@@ -2,7 +2,7 @@
 layout: post
 title: Understanding Artificial Intelligence - Final Submission
 subtitle: Final Submission
-categories: Module1,Understanding Artificial Intelligence
+categories: Module1
 tags: [AI Solution Implementation]
 ---
  
