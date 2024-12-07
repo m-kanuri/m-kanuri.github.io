@@ -2,7 +2,7 @@
 layout: post
 title: Numerical Analysis - Data Activity 3
 subtitle: Unit 3 - Data Activity 3
-categories: Python
+categories: Module2
 tags: [Data Activity 3]
 ---
 # Data Activity 3
