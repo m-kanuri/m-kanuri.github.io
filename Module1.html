@@ -6,7 +6,7 @@ layout: framework
 {%- if site.posts.size > 0 -%}
 
   {%- include functions.html func='log' level='debug' msg='Get value' -%}
-  {%- include functions.html func='get_categories' -%}
+  {%- include functions.html func='get_categories_Website' -%}
   {% assign categories = return %}
 
   {% assign keys = categories %}
