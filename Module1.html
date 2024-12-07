@@ -2,27 +2,4 @@
 layout: framework
 
 ---
-{%- if site.posts.size > 0 -%}
 
-  {%- include functions.html func='log' level='debug' msg='Fetching tags related to the Website category' -%}
-  {%- include functions.html func='get_tags' -%}
-  
-  {% assign tags = return %}
-  
-  {%- comment -%}
-  Filter tags to include only those related to the "Website" category.
-  Replace "Website" with any other category keyword as needed.
-  {%- endcomment -%}
-  {% assign website_tags = tags | where: "category", "Website" %}
-  
-  {%- comment -%}
-  Render the tags related to the Website category as an unordered list.
-  {%- endcomment -%}
-  <section>
-    <h2>Website Tags</h2>
-    <ul>
-      {% for tag in website_tags %}
-        <li>{{ tag }}</li>
-      {% endfor %}
-    </ul>
-  </section>
