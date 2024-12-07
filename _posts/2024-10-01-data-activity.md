@@ -2,7 +2,7 @@
 layout: post
 title: Numerical Analysis - Data Activity 8
 subtitle: Unit 10 - Data Activity 8
-categories: Rstudio
+categories: Module2
 tags: [Data Activity 8]
 ---
 # Data Activity 8
