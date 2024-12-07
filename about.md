@@ -10,7 +10,9 @@ Highly motivated, results-focused, hands-on IT Engineering Manager with over 23 
 - Pfizer – Programme QA Manager	
 - Circle Health Group - Programme QA Manager
 - NHS Wales- Test Consultant	
-- Capgemini (HMRC)– QA Test Manager	
+- Capgemini (HMRC)– QA Test Manager
+- LDUN (UK & KSA) – Programme Test Manager	
+- Baraq (UK & KSA) – Programme Test Manager	
 - STC Pay (UK & KSA) – Programme Test Manager	
 - The Careers & Enterprise Company, UK - Head of Quality Assurance (QA)
 - Tantalum Corporation, UK - Head of Quality Assurance (QA) & Release	
