@@ -38,8 +38,10 @@ Systematically develop and implement the skills required to be an effective memb
         <th>Summary Post</th>
     </tr>
     <tr>
-      <td>assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf</td>
-      <td>assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf</td>
-       <td>assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf</td>
+      <td> <a href="assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf" target="_blank" class="button large">Initial Post</a></td> 
+       <td> <a href="assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf" target="_blank" class="button large">Initial Post</a></td> 
+       <td> <a href="assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf" target="_blank" class="button large">Initial Post</a></td> 
+
+      
     </tr>
 </table>
