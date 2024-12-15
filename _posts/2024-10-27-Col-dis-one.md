@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding Artificial Intelligence - AI is powering the future of financial services
+title: Collaborative Discussion 1 - The Fourth Industrial Revolution
 subtitle: Collaborative Learning Discussion 1 
 categories: Module3
 tags: [Colloborative Learning Discussion, AI in financial Services]
