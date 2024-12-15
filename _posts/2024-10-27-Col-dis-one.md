@@ -7,39 +7,7 @@ tags: [Colloborative Learning Discussion, AI in financial Services]
 ---
  
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discussion Topic</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px auto;
-            max-width: 800px;
-            line-height: 1.6;
-            color: #333;
-        }
-        h1, h2 {
-            color: #4CAF50;
-        }
-        h1 {
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 5px;
-        }
-        ul {
-            list-style-type: disc;
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
+
 <body>
 
     <h1>Discussion Topic</h1>
