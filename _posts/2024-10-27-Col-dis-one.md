@@ -6,8 +6,6 @@ categories: Module3
 tags: [Colloborative Learning Discussion, AI in financial Services]
 ---
  
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,68 +14,62 @@ tags: [Colloborative Learning Discussion, AI in financial Services]
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 20px auto;
+            max-width: 800px;
             line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
             color: #333;
         }
-        h1 {
+        h1, h2 {
             color: #4CAF50;
         }
-        h2 {
-            color: #333;
+        h1 {
             border-bottom: 2px solid #4CAF50;
             padding-bottom: 5px;
         }
         ul {
+            list-style-type: disc;
             margin: 10px 0;
             padding-left: 20px;
         }
-        li {
-            margin-bottom: 10px;
+        a {
+            color: #4CAF50;
+            text-decoration: none;
         }
-        .instructions, .learning-outcomes {
-            background-color: #fff;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
     <h1>Discussion Topic</h1>
-    <p>Read the <em>Schwab (2016)</em> article from World Economic Forum and discuss the impact of Industry 4.0 on the sector in which you are involved or interested.</p>
+    <p>Read the <a href="https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-by-klaus-schwab">Schwab (2016) article</a> from World Economic Forum and discuss the impact of Industry 4.0 on the sector in which you are involved or interested.</p>
 
     <h2>Instructions</h2>
-    <div class="instructions">
-        <ul>
-            <li>Identify a specific incident (not covered in your reading list) where the failure of an information system has had a significant impact.</li>
-            <li>Your post could consider a range of impacts of the failure, including:
-                <ul>
-                    <li>The implications to customers</li>
-                    <li>The economic cost</li>
-                    <li>The reputational cost</li>
-                    <li>Or any other relevant impacts</li>
-                </ul>
-            </li>
-            <li>Review <em>Lecturecast 1</em> and read papers provided in the references list.</li>
-            <li>Go to the discussion forum and create an initial post of your contribution to the discussion.</li>
-            <li>You should demonstrate that you understand the topic covered and ensure you use references to academic literature (journals, books, reports, etc.).</li>
-        </ul>
-    </div>
+    <ul>
+        <li>Identify a specific incident (not covered in your reading list) where the failure of an information system has had a significant impact.</li>
+        <li>Consider a range of impacts of the failure, including:
+            <ul>
+                <li>Implications to customers</li>
+                <li>Economic cost</li>
+                <li>Reputational cost</li>
+                <li>Other relevant impacts</li>
+            </ul>
+        </li>
+        <li>Review <strong>Lecturecast 1</strong> and read the papers provided in the reference list.</li>
+        <li>Go to the discussion forum and create an initial post of your contribution to the discussion.</li>
+        <li>Demonstrate understanding of the topic and use references to academic literature (journals, books, reports, etc.).</li>
+    </ul>
 
     <h2>Learning Outcomes</h2>
-    <div class="learning-outcomes">
-        <ul>
-            <li>Understand the applicability and challenges associated with different datasets for the use of machine learning algorithms.</li>
-            <li>Systematically develop and implement the skills required to be an effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation.</li>
-        </ul>
-    </div>
+    <ul>
+        <li>Understand the applicability and challenges associated with different datasets for using machine learning algorithms.</li>
+        <li>Develop and implement skills to be an effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation.</li>
+    </ul>
 
 </body>
 </html>
+
 
 
 <table>
