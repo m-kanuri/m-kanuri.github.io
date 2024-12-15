@@ -34,10 +34,12 @@ Systematically develop and implement the skills required to be an effective memb
 <table>
     <tr>
         <th>Initial Post</th>
-        <th>Header 2</th>
+        <th>Peer Responses</th>
+        <th>Summary Post</th>
     </tr>
     <tr>
-        <td>Data 1</td>
-        <td>Data 2</td>
+      <td>assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf</td>
+      <td>assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf</td>
+       <td>assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf</td>
     </tr>
 </table>
