@@ -30,18 +30,10 @@ Understand the applicability and challenges associated with different datasets f
 Systematically develop and implement the skills required to be an effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation.
 </div>
 
-
 <table>
-    <tr>
-        <th>Initial Post</th>
-        <th>Peer Responses</th>
-        <th>Summary Post</th>
-    </tr>
     <tr>
       <td> <a href="assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf" target="_blank" class="button large">Initial Post</a></td> 
        <td> <a href="assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf" target="_blank" class="button large">Initial Post</a></td> 
        <td> <a href="assets/artefacts/Colloborative Discussion-ML-Initial Post.pdf" target="_blank" class="button large">Initial Post</a></td> 
-
-      
     </tr>
 </table>
