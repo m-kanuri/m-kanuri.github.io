@@ -13,6 +13,15 @@ tags: [Colloborative Learning Discussion, AI in financial Services]
     <h1>Discussion Topic</h1>
     <p>Read the <a href="https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-by-klaus-schwab">Schwab (2016) article</a> from World Economic Forum and discuss the impact of Industry 4.0 on the sector in which you are involved or interested.</p>
 
+    <table>
+    <tr>
+      <td> <a href="../../../../artefacts/ML-Initial_Post.pdf" target="_blank" class="button large">Initial Post</a></td> 
+       <td> <a href="../../../../artefacts/ML-Peer_Response.pdf" target="_blank" class="button large">Peer Responses</a></td> 
+       <td> <a href="../../../../artefacts/ML-Summary_Post.pdf" target="_blank" class="button large">Summary Post</a></td> 
+    </tr>
+</table>
+
+
     <h2>Instructions</h2>
     <ul>
         <li>Identify a specific incident (not covered in your reading list) where the failure of an information system has had a significant impact.</li>
