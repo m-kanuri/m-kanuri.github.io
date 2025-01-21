@@ -43,7 +43,7 @@ tags: [Colloborative Learning Discussion, AI in financial Services]
 <table>
     <tr>
       <td> <a href="../../../../artefacts/ML-Initial_Post.pdf" target="_blank" class="button large">Initial Post</a></td> 
-       <td> <a href="../artefacts/ML-Initial_Post.pdf" target="_blank" class="button large">Peer Responses</a></td> 
-       <td> <a href="../artefacts/ML-Initial_Post.pdf" target="_blank" class="button large">Summary Post</a></td> 
+       <td> <a href="../../../../artefacts/ML-Peer_Response.pdf" target="_blank" class="button large">Peer Responses</a></td> 
+       <td> <a href="../../../../artefacts/ML-Summary_Post.pdf" target="_blank" class="button large">Summary Post</a></td> 
     </tr>
 </table>
