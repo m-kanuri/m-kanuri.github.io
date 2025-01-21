@@ -5,7 +5,7 @@ subtitle: Collaborative Learning Discussion 1
 categories: Module3
 tags: [Colloborative Learning Discussion, AI in Financial Services]
 ---
-
+<html lang="en">
     <table>
     <tr>
       <td> <a href="../../../../artefacts/ML-Initial_Post.pdf" target="_blank" class="button large">Initial Post</a></td> 
@@ -13,7 +13,6 @@ tags: [Colloborative Learning Discussion, AI in Financial Services]
        <td> <a href="../../../../artefacts/ML-Summary_Post.pdf" target="_blank" class="button large">Summary Post</a></td> 
     </tr>
 </table>
-<html lang="en">
 
 <body>
 
