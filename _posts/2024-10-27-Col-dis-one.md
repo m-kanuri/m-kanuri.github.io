@@ -3,15 +3,8 @@ layout: post
 title: Collaborative Discussion 1 - The Fourth Industrial Revolution
 subtitle: Collaborative Learning Discussion 1 
 categories: Module3
-tags: [Colloborative Learning Discussion, AI in financial Services]
+tags: [Colloborative Learning Discussion, AI in Financial Services]
 ---
- 
-<html lang="en">
-
-<body>
-
-    <h1>Discussion Topic</h1>
-    <p>Read the <a href="https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-by-klaus-schwab">Schwab (2016) article</a> from World Economic Forum and discuss the impact of Industry 4.0 on the sector in which you are involved or interested.</p>
 
     <table>
     <tr>
@@ -20,7 +13,12 @@ tags: [Colloborative Learning Discussion, AI in financial Services]
        <td> <a href="../../../../artefacts/ML-Summary_Post.pdf" target="_blank" class="button large">Summary Post</a></td> 
     </tr>
 </table>
+<html lang="en">
 
+<body>
+
+    <h1>Discussion Topic</h1>
+    <p>Read the <a href="https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-by-klaus-schwab">Schwab (2016) article</a> from World Economic Forum and discuss the impact of Industry 4.0 on the sector in which you are involved or interested.</p>
 
     <h2>Instructions</h2>
     <ul>
