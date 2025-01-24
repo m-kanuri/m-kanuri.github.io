@@ -4,7 +4,7 @@
 
 ## AUTHOR
 
-**Murthy Kanuri**\
+**Murthy Kanuri**
 
 
 ---
