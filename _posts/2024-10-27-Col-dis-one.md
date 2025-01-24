@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Collaborative Discussion 1 - The Fourth Industrial Revolution
-subtitle: Collaborative Learning Discussion 1 
+title: Unit 1 Introduction to Machine Learning (ML)
+subtitle: Collaborative Learning Discussion 1 The Fourth Industrial Revolution
 categories: Module3
-tags: [Colloborative Learning Discussion, AI in Financial Services]
+tags: [Colloborative Learning Discussion, Machine Learning]
 ---
 <html lang="en">
     <table>
