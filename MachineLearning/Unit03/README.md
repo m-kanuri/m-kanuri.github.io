@@ -17,9 +17,10 @@ Watch this lecturecast and run the following Python activities by changing varia
 
 ### Code Files
 
-- **[7\_simple\_perceptron.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit03/Unit07_Ex1_simple_perceptron.ipynb)**
-- **[7\_perceptron\_and\_operator.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit03/Unit07_Ex2_perceptron_AND_operator.ipynb)**
-- **[7\_multi-layer\_perceptron.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit03/Unit07_Ex3_multi_layer_Perceptron.ipynb)** (*The Sigmoid Function*)
+- **[3\_Unit03_Ex1_covariance_pearson_correlation.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit03/Unit03_Ex1_covariance_pearson_correlation.ipynb)**
+- **[3\_Unit03_Ex2_linear_regression.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit03/Unit03_Ex2_linear_regression.ipynb)**
+- **[3\_Unit03_Ex3_multiple_linear_regression.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit03/Unit03_Ex3_multiple_linear_regression.ipynb)**
+- **[3\_Unit03_Ex4_polynomial_regression.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit03/Unit03_Ex4_polynomial_regression.ipynb)** 
 
 ## Learning Outcomes
 
