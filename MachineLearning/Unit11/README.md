@@ -13,7 +13,7 @@
 
 **Unit 11 Assignment**
 
-Read the Mayo 2017 article and then run the tutorial. Change the iteration number and learning_rate and observe how cost decreases.
+Run the model_Performance_Measurement.ipnyb file, change different parameters, and observe its impact on AUC and R2 errors.
 
 ### Code Files
 
@@ -21,6 +21,6 @@ Read the Mayo 2017 article and then run the tutorial. Change the iteration numbe
 
 ## Learning Outcomes
 
-Understand the applicability and challenges of using machine learning algorithms with different datasets.
+Change different parameters, and observe its impact on AUC and R2 errors.
 
 
