@@ -17,7 +17,7 @@ Read the Mayo 2017 article and then run the tutorial. Change the iteration numbe
 
 ### Code Files
 
-- **[3\_Unit08 Ex4 gradient_descent_cost_function.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit08/Unit08 Ex4 gradient_descent_cost_function.ipynb)**
+- **[8\_Unit08 Ex4 gradient_descent_cost_function.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit08/Unit08_Ex4_gradient_descent_cost_function.ipynb)**
 
 ## Learning Outcomes
 
