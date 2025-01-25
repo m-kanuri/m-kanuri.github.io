@@ -25,3 +25,7 @@ Watch this lecturecast and run the following Python activities by changing varia
 ## Learning Outcomes
 
 Understand the applicability and challenges of using machine learning algorithms with different datasets.
+
+## My Learning
+
+This week, we examined correlation and regression, paying particular attention to their measurement and some practical examples of their use. By the end of the week, I had a conceptual grasp of correlation and regression and gained insight into measures of these occurrences. Subsequently, I was able to use correlation and regression for practical purposes in many real situations and apply these techniques to data analysis and its interpretation.
