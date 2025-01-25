@@ -1,4 +1,4 @@
-# Gradient Cost Function
+# Model Performance Measurement
 
 **Machine Learning Course Assignment**
 
@@ -9,15 +9,15 @@
 
 ---
 
-## e-Portfolio Activity: **Unit 8 Assignment**
+## e-Portfolio Activity: **Unit 11 Assignment**
 
-**Unit 8 Assignment**
+**Unit 11 Assignment**
 
 Read the Mayo 2017 article and then run the tutorial. Change the iteration number and learning_rate and observe how cost decreases.
 
 ### Code Files
 
-- **[8\_Unit08 Ex4 gradient_descent_cost_function.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit08/Unit08_Ex4_gradient_descent_cost_function.ipynb)**
+- **[11\_Unit11_model_Performance_Measurement.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit11/Unit11_model_Performance_Measurement.ipynb)**
 
 ## Learning Outcomes
 
