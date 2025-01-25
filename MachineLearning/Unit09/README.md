@@ -18,7 +18,7 @@ Run this CNN model - Convolutional Neural Networks (CNN) - Object Recognition.ip
 
 ### Code Files
 
-- **[09\_Convolutional Neural Networks (CNN) - Object Recognition.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit09/Unit11_model_Performance_Measurement.ipynb)**
+- **[09\_Convolutional Neural Networks (CNN) - Object Recognition.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit09/Unit09_Ex1_Convolutional_Neural_Networks_(CNN)_Object_Recognition.ipynb)**
 
 ## Learning Outcomes
 
