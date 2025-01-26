@@ -15,9 +15,11 @@ tags: [Colloborative Learning Discussion, Machine Learning]
 </table>
 
 <body>
-   <h1>Overview - Unit 1 Introduction to Machine Learning (ML)</h1>
-  <p>This module covered the overview of machine learning (ML), exploring the different types like unsupervised, supervised, and reinforced learning. We examined the timeline of the Industrial Revolution, impact on modern applications such as self-driving cars, and classification of spam emails. Also, a big part of the discussion was about ethics in AI development.</p>
-    <h1>Discussion Topic</h1>
+  
+   <h2>Overview - Unit 1 Introduction to Machine Learning (ML)</h2>
+  <p>This module covered the overview of machine learning (ML), exploring the different types like unsupervised, supervised, and reinforced learning. We examined the timeline of the Industrial Revolution, the impact on modern applications such as self-driving cars, and the classification of spam emails. Also, a big part of the discussion was about ethics in AI development.</p>
+  
+    <h2>Discussion Topic</h2>
     <p>Read the <a href="https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-by-klaus-schwab">Schwab (2016) article</a> from World Economic Forum and discuss the impact of Industry 4.0 on the sector in which you are involved or interested.</p>
 
     <h2>Instructions</h2>
