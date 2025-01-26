@@ -13,11 +13,14 @@
 
 Use Exploratory Data Analysis.ipynb. with Auto-mpg dataset :
 
--Identify missing values.
--Estimate Skewness and Kurtosis.
--Correlation Heat Map.
--Scatter plot for different parameters.
--Replace categorical values with numerical values (i.e., America 1, Europe 2 etc.).
+<ul>
+    <li>Identify missing values</li>
+    <li>Estimate Skewness and Kurtosis</li>
+    <li>Correlation Heat Map</li>
+    <li>Scatter plot for different parameters</li>
+  <li>Replace categorical values with numerical values (i.e., America 1, Europe 2 etc.)</li>
+</ul>
+
 
 
 ### Code Files
