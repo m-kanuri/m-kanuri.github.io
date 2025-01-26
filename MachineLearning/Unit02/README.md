@@ -1,4 +1,4 @@
-# PERCEPTRON
+# EXPLORATORY DATA ANALYSIS
 
 **Machine Learning Course Assignment**
 
