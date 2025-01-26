@@ -25,7 +25,7 @@ Use Exploratory Data Analysis.ipynb. with Auto-mpg dataset :
 
 ### Code Files
 
-- **[7\_simple\_perceptron.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit07_Ex1_simple_perceptron.ipynb)**
+- **[2\_simple\Exploratory Data Analysis.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit02/Unit02_AutoMPG_EDA.ipynb)**
 
 
 ## Learning Outcomes
