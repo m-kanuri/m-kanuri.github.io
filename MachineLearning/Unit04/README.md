@@ -20,9 +20,8 @@
 
 ### Code Files
 
-- **[7\_simple\_perceptron.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit07_Ex1_simple_perceptron.ipynb)**
+- **[4\_Demo Correlation Regression for Fuel Consumption](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit04/Unit04_demo_correlation_regression_fuel_consumption.ipynb)**
 - **[4\_Correlation Regression for Global Population & GDP](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit04/Unit04_Correlation_regression_Global.ipynb)**
-- **[7\_multi-layer\_perceptron.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit07_Ex3_multi_layer_Perceptron.ipynb)** (*The Sigmoid Function*)
 
 ## Learning Outcomes
 1) Articulate the legal, social, ethical and professional issues faced by machine learning professionals.
