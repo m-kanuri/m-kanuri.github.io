@@ -32,7 +32,7 @@ tags: [Colloborative Learning Discussion, Machine Learning]
  </ul>
 </li>
 </ul>
-</ul>
+
  <h2>My Learnings</h2>
  <p>By completing the unit, I gained a comprehensive understanding of Machine Learning and its application in real-world applications. I also actively contributed to the collaborative discussion on 4th Industrial Revolution.</p>
 </body>
