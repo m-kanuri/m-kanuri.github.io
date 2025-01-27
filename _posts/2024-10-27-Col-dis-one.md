@@ -32,7 +32,9 @@ tags: [Colloborative Learning Discussion, Machine Learning]
  </ul>
 </li>
 </ul>
-
+ <h2>Summary</h2>
+ <p>The unit covers the foundations of machine learning(ML) with its historical evolution and its potential future impact. The unit also covered ethical considerations in AI development.</p>
+ 
  <h2>My Learning Outcome</h2>
  <p>By completing the unit, I gained a comprehensive understanding of Machine Learning and its application in real-world applications. I also actively contributed to the collaborative discussion on 4th Industrial Revolution.</p>
 </body>
