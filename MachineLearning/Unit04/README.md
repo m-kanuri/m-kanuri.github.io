@@ -21,7 +21,7 @@
 ### Code Files
 
 - **[7\_simple\_perceptron.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit07_Ex1_simple_perceptron.ipynb)**
-- **[4\_Correlation Regression for Global Population & GDP\_and\_operator.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit04/Unit04_Correlation_regression_Global.ipynb)**
+- **[4\_Correlation Regression for Global Population & GDP](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit04/Unit04_Correlation_regression_Global.ipynb)**
 - **[7\_multi-layer\_perceptron.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit07_Ex3_multi_layer_Perceptron.ipynb)** (*The Sigmoid Function*)
 
 ## Learning Outcomes
