@@ -20,7 +20,7 @@ tags: [Colloborative Learning Discussion, KRR]
 <table>
     <tr>
       <td> <a href="../../../../artefacts/KRR-Unit01-InitialPost.pdf" target="_blank" class="button large">Initial Post</a></td> 
-       <td> <a href="../../../../artefacts/ML-Peer_Response.pdf" target="_blank" class="button large">Peer Responses</a></td> 
+       <td> <a href="../../../../artefacts/KRR-Unit01-Peer_Response.pdf" target="_blank" class="button large">Peer Responses</a></td> 
        <td> <a href="../../../../artefacts/KRR-Unit01-SummaryPost.pdf" target="_blank" class="button large">Summary Post</a></td> 
     </tr>
 </table>
