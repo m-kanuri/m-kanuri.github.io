@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Unit 1 Introduction to Knowledge Representation and Reasoning
-subtitle: Collaborative Learning Discussion 1 
+title: Unit 5: Introduction to Modelling
+subtitle: Formative Activities
 categories: Module4
-tags: [Colloborative Learning Discussion, KRR]
+tags: [Formative Activities, KRR]
 ---
 <html lang="en">
 
 <body>
-<h2>Discussion Topic</h2>
-<p>Knowledge Representation is a recent phenomenon – it only became a topic of discussion with the development of computing technology and the need to represent knowledge in computer systems.</p>
+<h2>Activity1</h2>
+<p>Read the article by Bimba et al (2016) and then answer the following questions:</p>
 
- <li>Discuss this assertion. Do you agree or disagree with this opinion? Justify your position, supported with at least two academic references.</li>
-
- <li>How is reasoning related to knowledge representation (KR)? Is KR still useful without reasoning support? Justify your answer supported by two academic references. </li>
+ <li>What are the 3 knowledge bases identified by the authors?</li>
+ <li>What are the differences between them?</li>
+  <li>How are these related to ontologies?</li>
 
 </body>
 </html>
