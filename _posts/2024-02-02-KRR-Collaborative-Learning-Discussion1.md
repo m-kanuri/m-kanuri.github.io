@@ -15,13 +15,24 @@ tags: [Formative Activities, KRR]
  <li>What are the differences between them?</li>
   <li>How are these related to ontologies?</li>
 
+<h2>Activity2</h2>
+<p>Read the article by Leydesdorff, L. (2010) and then answer the questions below:</p>
+
+ <li>How does the author define a ‘Knowledge based economy’?</li>
+ <li>What is the triple helix model?</li>
+ 
+
+  <h2>Activity3</h2>
+<p>Read the Fensel et al (2000) paper then answer the following questions:</p>
+
+ <li>What are the components of the Onto Knowledge model/ framework?</li>
+ <li>What are the example use cases given for the framework?</li>
+
 </body>
 </html>
 <table>
     <tr>
       <td> <a href="../../../../artefacts/KRR-Unit01-InitialPost.pdf" target="_blank" class="button large">Initial Post</a></td> 
-       <td> <a href="../../../../artefacts/KRR-Unit01-Peer_Response.pdf" target="_blank" class="button large">Peer Responses</a></td> 
-       <td> <a href="../../../../artefacts/KRR-Unit01-SummaryPost.pdf" target="_blank" class="button large">Summary Post</a></td> 
     </tr>
 </table>
 
