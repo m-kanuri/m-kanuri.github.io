@@ -33,7 +33,7 @@ tags: [Formative Activities, KRR]
 <br>
 <table>
     <tr>
-      <td> <a href="../../../../artefacts/KRR-Unit01-InitialPost.pdf" target="_blank" class="button large">Initial Post</a></td> 
+      <td> <a href="../../../../artefacts/KRR-Unit01-InitialPost.pdf" target="_blank" class="button large">Formative Activities</a></td> 
     </tr>
 </table>
 
