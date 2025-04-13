@@ -1,6 +1,6 @@
-# PERCEPTRON
+# Modelling Assignment
 
-**Machine Learning Course Assignment**
+**Knowledge Representation and Reasoning**
 
 ## AUTHOR
 
@@ -9,20 +9,30 @@
 
 ---
 
-## e-Portfolio Activity: Perceptron Activities
+**Unit 11 **
 
-**Unit 7 Assignment**
+# Job Matching Ontology
 
-Watch this lecturecast and run the following Python activities in order.
+An ontology built in Protégé to power an AI-based job matching system.  
+It models entities such as `Job`, `JobSeeker`, `Skill`, and `SalaryRange` using OWL-DL.
 
-### Code Files
+## Tools Used
+- Protégé 5.x
+- OWL 2 DL
+- DL Queries & SPARQL
+
+## Structure Overview
+- Classes: Job, JobSeeker, Skill, SalaryRange...
+- Object Properties: hasSkill, hasSalaryRange, requiresProficiencyLevel...
+
+## License
+MIT / Apache 2.0 / Creative Commons (your choice)
+
+### RDF Files
 
 - **[7\_simple\_perceptron.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit07_Ex1_simple_perceptron.ipynb)**
-- **[7\_perceptron\_and\_operator.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit07_Ex2_perceptron_AND_operator.ipynb)**
-- **[7\_multi-layer\_perceptron.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit07_Ex3_multi_layer_Perceptron.ipynb)** (*The Sigmoid Function*)
 
-## Learning Outcomes
 
-Understand the applicability and challenges of using machine learning algorithms with different datasets.
+
 
 
