@@ -30,7 +30,7 @@ MIT / Apache 2.0 / Creative Commons (your choice)
 
 ### RDF Files
 
-- **[7\_simple\_perceptron.ipynb](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/MachineLearning/Unit07_Ex1_simple_perceptron.ipynb)**
+- **[JonMatching.rdf](https://github.com/m-kanuri/m-kanuri.github.io/blob/main/KRR/Unit11/JobMatching.rdf)**
 
 
 
