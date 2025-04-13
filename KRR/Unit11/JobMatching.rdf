@@ -1,0 +1,643 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#"
+     xml:base="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching">
+        <rdfs:comment xml:lang="en-gb">Ontology for AI-driven Job Matching</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#backwardCompatibleWith"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#backwardCompatibleWith"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLObjectProperty_82861f78_ac4a_41c2_8c23_81705b8c1a07 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLObjectProperty_82861f78_ac4a_41c2_8c23_81705b8c1a07">
+        <rdfs:label xml:lang="en">ITJob</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLObjectProperty_9217616f_7694_4f54_9415_882314313626 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLObjectProperty_9217616f_7694_4f54_9415_882314313626">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ProficiencyLevel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SalaryRange"/>
+        <rdfs:label xml:lang="en">requiresProficiencyLevel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLObjectProperty_cb5832ce_f769_49e0_bb3f_3ed1518e0af8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLObjectProperty_cb5832ce_f769_49e0_bb3f_3ed1518e0af8">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ProficiencyLevel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SalaryRange"/>
+        <rdfs:label xml:lang="en">hasSalaryRange</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLObjectProperty_d10dfb22_d9ac_4f0a_aa13_5e4894a5a4e4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLObjectProperty_d10dfb22_d9ac_4f0a_aa13_5e4894a5a4e4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ProficiencyLevel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SalaryRange"/>
+        <rdfs:label xml:lang="en">requiresSalaryRange</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#hasEducation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#hasEducation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Education"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#hasExperience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#hasExperience">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Experience"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#hasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#hasPreference -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#hasPreference">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Preference"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#hasSkill -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#hasSkill">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Skill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#isEligibleFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#isEligibleFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#offeredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#offeredBy">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Employer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SalaryRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#requiresSkill -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#requiresSkill">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Skill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#degreeName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#degreeName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Education"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#expectedSalary -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#expectedSalary">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Preference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#jobTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#jobTitle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#locationName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#locationName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#yearsOfExperience -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#yearsOfExperience">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Experience"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Advanced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Advanced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ProficiencyLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Beginner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Beginner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ProficiencyLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Education"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Employer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Employer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#EntryLevelSeeker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#EntryLevelSeeker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Experience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ExperiencedSeeker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ExperiencedSeeker">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JavaSkilledSeeker"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Expert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Expert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ProficiencyLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#HRInterview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#HRInterview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Interview"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#HealthcareJob -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#HealthcareJob">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#HighSalaryRange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#HighSalaryRange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SalaryRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ITJob -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ITJob">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Industry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Intermediate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Intermediate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ProficiencyLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Interview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Interview"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JavaSkilledSeeker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JavaSkilledSeeker"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#LowSalaryRange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#LowSalaryRange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SalaryRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#MidSalaryRange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#MidSalaryRange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SalaryRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#PhoneScreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#PhoneScreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Interview"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Preference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Preference"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ProficiencyLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ProficiencyLevel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#PythonSkilledSeeker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#PythonSkilledSeeker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#RemoteJob -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#RemoteJob">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Job"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SalaryRange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SalaryRange"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Skill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Skill"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SoftSkill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SoftSkill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#TechnicalInterview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#TechnicalInterview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Interview"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#TechnicalSkill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#TechnicalSkill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Amelia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Amelia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#ExperiencedSeeker"/>
+        <hasSkill rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Java"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Communication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Java -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Java">
+        <rdf:type rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Skill"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#TechnicalSkill"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JavaDeveloperJob -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JavaDeveloperJob">
+        <rdf:type rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#RemoteJob"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#RemoteLocation"/>
+        <offeredBy rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#TechCorp"/>
+        <requiresSkill rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Java"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Liam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Liam">
+        <OWLObjectProperty_82861f78_ac4a_41c2_8c23_81705b8c1a07 rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_8aab2c12_d393_4363_9ca3_80d76536f452"/>
+        <OWLObjectProperty_9217616f_7694_4f54_9415_882314313626 rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_d161c83a_2574_4257_81bb_22ff6b088533"/>
+        <OWLObjectProperty_d10dfb22_d9ac_4f0a_aa13_5e4894a5a4e4 rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_6927fbec_f890_480d_81f2_6825c7351e3a"/>
+        <hasSkill rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Python"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_6927fbec_f890_480d_81f2_6825c7351e3a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_6927fbec_f890_480d_81f2_6825c7351e3a">
+        <OWLObjectProperty_d10dfb22_d9ac_4f0a_aa13_5e4894a5a4e4 rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_6927fbec_f890_480d_81f2_6825c7351e3a"/>
+        <rdfs:label xml:lang="en">HighSalaryRange</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_7396cc13_479b_4f93_a004_51679dfe0f5f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_7396cc13_479b_4f93_a004_51679dfe0f5f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#JobSeeker"/>
+        <OWLObjectProperty_cb5832ce_f769_49e0_bb3f_3ed1518e0af8 rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_aed57dde_5f53_45e0_a148_f0c4e4adfab3"/>
+        <hasSkill rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_e9243063_abea_420e_8d60_15c97e1fb623"/>
+        <rdfs:label xml:lang="en">Peter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_8aab2c12_d393_4363_9ca3_80d76536f452 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_8aab2c12_d393_4363_9ca3_80d76536f452">
+        <rdfs:label xml:lang="en">ITJob</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_99a385f8_fc73_4ef7_98c1_685ff97b9f07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_99a385f8_fc73_4ef7_98c1_685ff97b9f07">
+        <rdfs:label xml:lang="en">LowSalaryRange</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_aed57dde_5f53_45e0_a148_f0c4e4adfab3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_aed57dde_5f53_45e0_a148_f0c4e4adfab3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#MidSalaryRange"/>
+        <rdfs:label xml:lang="en">MidSalaryRange</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_d161c83a_2574_4257_81bb_22ff6b088533 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_d161c83a_2574_4257_81bb_22ff6b088533">
+        <OWLObjectProperty_9217616f_7694_4f54_9415_882314313626 rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_d161c83a_2574_4257_81bb_22ff6b088533"/>
+        <rdfs:label xml:lang="en">Expert</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_e9243063_abea_420e_8d60_15c97e1fb623 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#OWLNamedIndividual_e9243063_abea_420e_8d60_15c97e1fb623">
+        <rdf:type rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Skill"/>
+        <rdfs:label xml:lang="en">Ruby</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Python -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Skill"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#RemoteLocation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#RemoteLocation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SoftwareDevExp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#SoftwareDevExp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#TechCorp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#TechCorp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#yearsOfExperience -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#yearsOfExperience"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Advanced"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Beginner"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Expert"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#Intermediate"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#HighSalaryRange"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#LowSalaryRange"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/murthykanuri/ontologies/2025/2/JobMatching#MidSalaryRange"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
