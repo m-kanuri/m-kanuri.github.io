@@ -4,7 +4,7 @@ title: Dissertation
 subtitle: Dissertation Proposal 
 categories: Dissertation
 tags: [Dissertation, Proposal, Submission]
----
+--- 
 <html lang="en">
 
 
