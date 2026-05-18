@@ -1,11 +1,11 @@
----
+
+ ---
 layout: post
-title: Understanding Artificial Intelligence - AI is powering the future of financial services
-subtitle: Collaborative Learning Discussion 1 
-categories: Module1
-tags: [Colloborative Learning Discussion, AI in financial Services]
+title: "Understanding Artificial Intelligence - AI is powering the future of financial services"
+subtitle: "Collaborative Learning Discussion 1"
+categories: ["Module1"]
+tags: ["Collaborative Learning Discussion", "AI in Financial Services"]
 ---
- 
 ## Summary Post: AI is powering the future of financial services
 
 In my initial post, I discussed the advantages of AI in financial services, including customer experience, detecting fraudulent activities, and preventing financial crime.
