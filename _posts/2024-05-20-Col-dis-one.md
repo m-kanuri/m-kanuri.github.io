@@ -1,5 +1,5 @@
 
- ---
+---
 layout: post
 title: "Understanding Artificial Intelligence - AI is powering the future of financial services"
 subtitle: "Collaborative Learning Discussion 1"
